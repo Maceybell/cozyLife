@@ -1,0 +1,90 @@
+
+nav {
+	height: 30px;
+    width: 100%;
+    background-color: rgba(30, 68, 34, 0.087);
+    position: relative;
+    top: 50px;
+    font-family: garamond;
+    
+}
+
+ol {
+ text-align: center;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+    font-weight:bold;
+}
+
+a {
+	color: rgb(218, 164, 2);
+}
+
+a:visited {
+	color: rgb(252, 96, 127);
+}
+
+
+input {
+	display: block;
+}
+
+body{
+    background-color: rgb(239, 251, 225);
+}
+
+.cozyHeader{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white
+}
+
+.cozyMotto{
+    color: rgb(0, 0, 0)
+}
+
+.techGroups{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:20px;
+    
+   
+}
+
+
+
+.link{
+    height: 300px;
+    width: 300px;
+    ;
+}
+
+.linkImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.linkName{
+    position: relative;
+    top:135px;
+    left: 70px;
+    z-index: -1;
+    font-family: garamond;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.opacity{
+    opacity: 0.2
+}
+
+#phonePaper{
+    height:250px;
+}
